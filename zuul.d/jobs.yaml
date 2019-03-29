@@ -38,6 +38,9 @@
       ara_report_type: html
       ara_report_path: ara-report
       ara_compress_html: false
+    secrets:
+      - vexxhost_clouds_yaml
+    nodeset:
     nodeset:
       nodes:
         - name: ubuntu-bionic
