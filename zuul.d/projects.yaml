@@ -54,3 +54,5 @@
     promote:
       jobs:
         - windmill-config-deploy
+            files:
+              - zuul/tenants.yaml
