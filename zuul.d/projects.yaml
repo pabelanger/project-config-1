@@ -1,5 +1,18 @@
 ---
 - project:
+    name: github.com/ansible/ansible-runner
+    templates:
+      - system-required
+    check:
+      jobs:
+        - ansible-tox-py27:
+            voting: false
+        - ansible-tox-py36:
+            voting: false
+        - ansible-tox-py37:
+            voting: false
+
+- project:
     # NOTE(pabelanger): All projects in ansible-network must run
     # system-required project-template
     name: ^github.com/ansible-network/.*
