@@ -144,6 +144,8 @@
 - project:
     name: github.com/ansible/project-config
     templates:
+      - system-required
+    templates:
       - ansible-python-jobs
     check:
       jobs:
