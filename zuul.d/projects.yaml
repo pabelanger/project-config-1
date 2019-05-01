@@ -239,6 +239,12 @@
         - ansible-tox-linters
 
 - project:
+    name: github.com/ansible/awx
+    default-branch: devel
+    check:
+      jobs: []
+
+- project:
     name: github.com/ansible/project-config
     templates:
       - system-required
