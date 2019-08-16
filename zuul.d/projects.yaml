@@ -22,6 +22,10 @@
       - noop-jobs
 
 - project:
+    name: github.com/ansible-network/ansible_collections.juniper.junos
+    templates:
+
+- project:
     name: github.com/ansible-network/ansible_collections.vyos.vyos
     templates:
       - noop-jobs
