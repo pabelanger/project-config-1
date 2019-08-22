@@ -6,10 +6,7 @@
     templates:
       - system-required
 
-- project:
-    name: github.com/ansible-community/ansible-bender
-    templates:
-      - noop-jobs
+
 
 - project:
     name: github.com/ansible-network/ansible_collections.arista.eos
@@ -139,6 +136,11 @@
 - project:
     name: github.com/ansible-network/network_configurator
     default-branch: devel
+    templates:
+      - noop-jobs
+
+- project:
+    name: github.com/ansible-network/network_content_collector
     templates:
       - noop-jobs
 
