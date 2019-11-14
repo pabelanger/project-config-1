@@ -8,6 +8,11 @@
         patterns: "*.tar.gz"
       register: result
 
+    - name: Display stat for tarballs
+      stat:
+        path: "{{ item.path }}"
+      with_items: "{{ result.files }}"
+
     - name: Ensure artifacts directory exists
       file:
         path: "{{ zuul.executor.work_root }}/artifacts"
