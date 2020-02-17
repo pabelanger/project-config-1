@@ -61,7 +61,7 @@
       - publish-to-galaxy-master-only
 
 - project:
-    name: github.com/ansible-network/ansible_collections.arista.eos
+    name: github.com/ansible-collections/eos
     templates:
       - ansible-collections-arista-eos
       - ansible-python-jobs
