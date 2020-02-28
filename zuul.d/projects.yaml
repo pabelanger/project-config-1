@@ -6,14 +6,16 @@
     templates:
       - system-required
 
-- project:
-    name: github.com/ansible-collection-migration/ansible-base
-    default-branch: devel
+
 
 - project:
     name: github.com/ansible-collections/asa
     templates:
       - system-required
+
+- project:
+    name: github.com/ansible-collection-migration/ansible-base
+    default-branch: devel
 
 - project:
     name: github.com/ansible-collections/checkpoint
