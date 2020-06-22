@@ -1,0 +1,5 @@
+---
+- semaphore:
+    name: ansible-automation-hub
+    max: 2
+
